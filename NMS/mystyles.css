@@ -1,0 +1,73 @@
+
+
+/*Import font sizes for the webpage */
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+/* Ensure the dimensions will stay proportional regardless of screen size */
+html{
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: rgb(62, 95, 97);
+    font-family: "Orbitron";
+    color: rgb(59, 18, 18);
+
+}
+/* Logo name */
+.logo-name{
+    font-family: "Orbitron";
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter- Zero Zero";
+    color: rgb(59, 18, 18);
+  
+  }
+  .logo-name-large{
+    font-family:"Orbitron";
+    font-size: 8em;
+  }
+
+/* The different aspects of the lists in the nav can be controlled using .nav and whatever list element needs to be changed.*/
+.nav ul{
+    margin: 0;
+  }
+  
+  .nav li{
+    display: inline;
+  }
+  
+  .nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+  }
+
+
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid #405059;
+}
+
+/* Create a header that will have a gif */
+.main-header{
+    background-color: sandybrown;
+    background-image: url(https://media.giphy.com/media/dxb89cIlFErFlcPnbe/giphy.gif);
+    background-blend-mode: multiply;
+    background-size: 1910px 500px;
+    padding-bottom: 250px
+  }
+
+
+
+  .container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+  }
